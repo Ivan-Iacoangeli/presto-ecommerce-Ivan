@@ -1,7 +1,10 @@
 /* SETTINGS GENERALI */
+@font-face {
+    font-family: motor;
+    src: url(./media/MOTOR\ -\ PERSONAL\ USE\ ONLY.ttf);
+}
 
-
-h1,h2,h3,h4{
+h2,h3,h4{
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
@@ -56,6 +59,39 @@ h1,h2,h3,h4{
 .bg-redCus{
     background-color: var(--redCus);
 }
+
+/* HEADER */
+h1{
+    font-family: motor;
+    font-size: 100px;
+
+    background-image: url("./media/race-flag-15.gif");
+    background-size: cover;
+    background-position: center;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    filter: drop-shadow(10px 10px 4px #171718);
+
+}
+
+.headerCustom{
+    background-image: url('./media/bg-header.jpg');
+    vh: -100px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 700px){
+    h1{
+        font-size: 60px;
+    }
+    .headerCustom{
+
+    }
+}
+    
 
 
 
