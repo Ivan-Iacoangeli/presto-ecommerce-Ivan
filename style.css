@@ -1,0 +1,67 @@
+/* SETTINGS GENERALI */
+
+
+h1,h2,h3,h4{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --prymary: #C4D4F2;
+    --secondary: #F25C05;
+    --acc:#BF9780;
+    --orangeCus: #F24405;
+    --redCus: #A60303;
+}
+
+.text-primary{
+    color: var(--prymary);
+}
+.text-secondary{
+    color: var(--secondary);
+}
+
+.text-acc{
+    color: var(--acc);
+}
+
+.text-orangeCus{
+    color: var(--orangeCus);
+}
+
+.text-redCus{
+    color: var(--redCus);
+}
+
+/* BG CUSTOM */
+
+.bg-primary{
+    background-color: var(--prymary);
+}
+
+.bg-secondary{
+    background-color: var(--secondary);
+}
+
+.bg-acc{
+    background-color: var(--acc);
+}
+
+.bg-orangeCus{
+    background-color: var(--orangeCus);
+}
+
+.bg-redCus{
+    background-color: var(--redCus);
+}
+
+
+
+
+
+
+
+
+
