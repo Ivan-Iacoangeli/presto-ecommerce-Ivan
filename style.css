@@ -1,4 +1,9 @@
 /* SETTINGS GENERALI */
+body{
+    background-color: rgba(242, 240, 240, 0.919);
+    overflow-x: hidden;
+}
+
 @font-face {
     font-family: motor;
     src: url(./media/MOTOR\ -\ PERSONAL\ USE\ ONLY.ttf);
@@ -97,10 +102,14 @@ h1{
 }
 
 .headerCustom{
-    background-image: url('./media/bg-header.jpg');
+    background-image: url(./media/enduro.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 20px;
+}
+
+.titolo{
+    margin-top: 70px;
 }
 
 @media screen and (max-width: 700px){
@@ -112,6 +121,15 @@ h1{
     }
 }
 /* FINE HEADER */
+
+/* INIZIO AOS SECTION */
+.casco{
+   height: 300px;
+   filter: drop-shadow(10px 8px 4px #4b4b4d);
+   
+}
+
+/* FINE AOS SECTION */
 
 
 
