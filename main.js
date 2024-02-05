@@ -79,3 +79,39 @@ let observer = new IntersectionObserver(
 );
 
 observer.observe(h2Obs);
+
+// SEZIONE MOUSE ENTER CAMION
+let trucks = document.querySelectorAll('.fa-truck-fast');
+let columns = document.querySelectorAll('.col-custom');
+
+
+columns.forEach((colonna, i)=>{
+
+    let columnsConfirm = false;
+
+    colonna.addEventListener('mouseenter', ()=>{
+
+        if(columnsConfirm == false){
+            trucks[i].classList.remove('text-acc');
+            trucks[i].classList.add('text-secondary');
+        }else {
+            trucks[i].classList.remove('text-orangeCus'); 
+            trucks[i].classList.add('text-myBlack'); 
+        }
+        
+    });
+
+    colonna.addEventListener('mouseleave',()=>{
+
+        if(columnsConfirm == false){
+            trucks[i].classList.remove('text-secondary');
+            trucks[i].classList.add('text-orangeCus'); 
+            columnsConfirm = true;
+        }else {
+            trucks[i].classList.remove('text-myBlack'); 
+            trucks[i].classList.add('text-acc'); 
+            columnsConfirm = false;
+        }
+        
+    });
+});
